@@ -1,0 +1,22 @@
+/*HERO SECTION*/
+
+.hero {
+    background-color: var(--color-background-blue);
+    text-align: center;
+    padding: 50px 20px;
+
+}
+
+.hero > img {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+}
+
+.hero-paragraph {
+    padding-bottom: 40px;
+}
+
+h1, p {
+    text-align: center;
+}

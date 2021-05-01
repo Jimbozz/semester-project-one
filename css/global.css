@@ -1,2 +1,71 @@
-@import "imports/links.css";
-@import "imports/variables.css";
+@import "/css/imports/variables.css";
+@import "/css/imports/links.css";
+
+html {
+    font-size: 100%;
+}
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+	font-size: calc(14px + 0.3vw);
+	line-height: 1.4;
+	margin: 0;
+	padding: 0;
+    color: var(--color-paragraph-text);
+}
+
+h1, h2, h3 {
+    color: var(--color-purple);
+}
+
+p {
+    font-family: var(--text-paragraph), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*navigation*/
+
+.logo {
+    width: 130px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: minmax(100px, 1fr) repeat(1, auto);
+    grid-gap: 56px;
+    align-items: center;
+    background-color: var(--color-background-blue);
+    padding: 20px 40px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: inline-block;
+}
+
+.hamburger-icon {
+    color: var(--color-purple);
+}
+
+nav {
+    display: none;
+}  
+
+ul {
+    list-style: none;
+}
+
+/*/
+
+
+

@@ -1,0 +1,60 @@
+@media screen and (min-width: 769px) {
+
+ /*navigation*/
+
+
+    #hamburger-menu {
+        display: none;
+    }
+    .hamburger-icon {
+        display: none;
+    }
+
+    nav {
+        display: inline-block;
+    }
+
+    .nav-style {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+/*HERO SECTION*/
+    .hero {
+        display: flex;
+        text-align: left;
+        padding: 50px 40px;
+    }
+
+    .hero-image {
+        order: 2;
+    }
+
+    .hero-text {
+        order: 1;
+        margin-right: 80px;
+    }
+
+    .hero-heading , .hero-paragraph {
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 1441px) {
+
+    /*NAVIGATION*/
+    .logo {
+        width: 340px;
+    }
+
+}
+
+
+
+
