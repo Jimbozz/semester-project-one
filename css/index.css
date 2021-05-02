@@ -1,4 +1,4 @@
-/*HERO SECTION*/
+/*HERO SECTION, JOIN US*/
 
 .hero {
     background-color: var(--color-background-blue);
@@ -7,16 +7,39 @@
 
 }
 
-.hero > img {
+.hero-image, .join-image {
     width: 100%;
     max-width: 400px;
-    padding: 30px;
+    margin-bottom: 40px;
 }
 
-.hero-paragraph {
+.hero-paragraph, .join-paragraph {
     padding-bottom: 40px;
 }
 
-h1, p {
+
+/*EXHIBITIONS*/
+
+
+.exhibitions {
+    background-color: var(--color-background-yellow);
+    padding: 40px 0px;
     text-align: center;
 }
+
+.exhibitions-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*JOIN US*/
+
+
+.join {
+    background-color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+

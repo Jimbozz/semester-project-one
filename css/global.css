@@ -20,17 +20,20 @@ body {
 
 h1, h2, h3 {
     color: var(--color-purple);
+    margin: 0px 0px 5px 0px;
+    font-weight: 400;
 }
 
 p {
     font-family: var(--text-paragraph), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
 }
 
-/*navigation*/
+/*NAVIGATION*/
 
 .logo {
     width: 130px;
@@ -65,7 +68,46 @@ ul {
     list-style: none;
 }
 
-/*/
+/* HORIZONTAL CARD LAYOUT*/
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 20px 20px 60px 20px;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+    text-align: left;
+}
+
+    /* Remove scrollbar for Chrome, Safari and Opera */
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+    display: none;
+  }
+
+    /* Remove scrollbar for IE, Edge and Firefox */
+.scrolling-wrapper-flexbox {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+    
+.card {
+    flex: 0 0 auto;
+    width: 95%;
+}
+
+.card-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.scrolling-heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 
 
 

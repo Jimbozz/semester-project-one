@@ -1,7 +1,8 @@
+/*SMALL VIEWPORT*/
+
 @media screen and (min-width: 769px) {
 
- /*navigation*/
-
+    /*NAVIGATION*/
 
     #hamburger-menu {
         display: none;
@@ -24,8 +25,8 @@
         width: 180px;
     }
 
-/*HERO SECTION*/
-    .hero {
+    /*HERO SECTION, JOIN US*/
+    .hero, .join {
         display: flex;
         text-align: left;
         padding: 50px 40px;
@@ -33,10 +34,11 @@
 
     .hero-image {
         order: 2;
+        max-width: 100%;
     }
 
     .hero-text {
-        order: 1;
+        order: -1;
         margin-right: 80px;
     }
 
@@ -44,7 +46,65 @@
         text-align: left;
     }
 
+    .join {
+        align-items: center;
+    }
+
+
 }
+
+/*MEDIUM VIEWPORT*/
+@media screen and (min-width: 768px) {
+
+
+    /*EXHIBITIONS*/
+    .card {
+        flex: 1;
+        min-width: 40%;
+    }
+
+    .scrolling-heading {
+        justify-content: space-evenly;
+    }
+
+}
+
+/* LARGE VIEWPORT*/
+@media screen and (min-width: 1024px) {
+
+    /*EXHIBITIONS*/
+    .card {
+        flex: 1;
+        min-width: auto;
+    }
+
+    .scrolling-heading {
+        display: none;
+    }
+
+    .scrolling-wrapper-flexbox {
+        gap: 30px;
+    }
+
+    /*JOIN US*/
+    .join-image, .hero-image {
+        margin: 0px;
+        padding: 30px;
+        
+    }
+
+    .join > * {
+        flex: 1 1 0;
+    }
+    .hero > * {
+        flex: 1 1 0;
+    }
+
+    
+}
+
+
+/* XLARGE VIEWPORT*/
 
 @media screen and (min-width: 1441px) {
 
@@ -52,6 +112,7 @@
     .logo {
         width: 340px;
     }
+
 
 }
 
