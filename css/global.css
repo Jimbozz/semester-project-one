@@ -11,7 +11,7 @@ html {
 
 body {
 	font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
-	font-size: calc(14px + 0.3vw);
+	font-size: calc(12px + 0.3vw);
 	line-height: 1.4;
 	margin: 0;
 	padding: 0;
@@ -23,6 +23,7 @@ h1, h2, h3 {
     margin: 0px 0px 5px 0px;
     font-weight: 400;
 }
+
 
 p {
     font-family: var(--text-paragraph), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
@@ -66,11 +67,12 @@ nav {
 
 ul {
     list-style: none;
+    padding: 0px;
 }
 
 /* HORIZONTAL CARD LAYOUT*/
 
-.scrolling-wrapper-flexbox {
+.scrolling-wrapper {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -81,12 +83,12 @@ ul {
 }
 
     /* Remove scrollbar for Chrome, Safari and Opera */
-.scrolling-wrapper-flexbox::-webkit-scrollbar {
+.scrolling-wrapper::-webkit-scrollbar {
     display: none;
   }
 
     /* Remove scrollbar for IE, Edge and Firefox */
-.scrolling-wrapper-flexbox {
+.scrolling-wrapper {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }

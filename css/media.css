@@ -67,9 +67,78 @@
         justify-content: space-evenly;
     }
 
+    /*SIGN UP FORM*/
+    .signup {
+        display: flex;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .signup > div {
+        display: flex;
+    }
+
+    .signup-form {
+        flex: 1;
+        height: 50px;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .signup-heading {
+        flex: 1;
+    }
+
+    .signup-desktop, .signup-input {
+        width: 100%;
+    }
+
+    /*FOOTER*/
+    .footer-layout, .footer-flex {
+        display: flex;
+    }
+
+    .footer-flex {
+        flex: 1;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+    .footer-logo {
+        flex: 1;
+    }
+
+    footer img {
+        padding: 0px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .social {
+        order: 3;
+        margin: 0px;
+    }
+
+    .footer-address, .footer-copyright {
+        margin: 0px;
+    }
+
+    .footer-copyright {
+        order: 1;
+    }
+
+    .footer-address {
+        order: 2;
+    }
+
 }
 
-/* LARGE VIEWPORT*/
+/* LAPTOP VIEWPORT*/
 @media screen and (min-width: 1024px) {
 
     /*EXHIBITIONS*/
@@ -82,7 +151,7 @@
         display: none;
     }
 
-    .scrolling-wrapper-flexbox {
+    .scrolling-wrapper {
         gap: 30px;
     }
 
@@ -100,11 +169,35 @@
         flex: 1 1 0;
     }
 
-    
+    /*HOW TO EXPLORE*/
+
+
+   .explore {
+    display: inline-block;
+    height: 960px;
+    background-image: url(/images/planets-background-cosmo.svg);
+    background-repeat: no-repeat;
+    background-position-x: 500px;
+    left: 200px;
+    background-position-y: 670px;
+   }
 }
 
 
-/* XLARGE VIEWPORT*/
+/* LAPTOP L VIEWPORT*/
+
+@media screen and (min-width: 1440px) {
+
+    .explore {
+        background-position-x: 700px;
+        background-position-y: 730px;
+    }
+}
+
+
+    
+
+/* 4K VIEWPORT*/
 
 @media screen and (min-width: 1441px) {
 
@@ -113,8 +206,14 @@
         width: 340px;
     }
 
+    .explore {
+        height: 100vh;
+        background-position-x: 1800px;
+        background-position-y: 1080px;
+    }
 
 }
+
 
 
 
