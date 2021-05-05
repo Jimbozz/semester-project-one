@@ -1,0 +1,29 @@
+.header-style {
+    background-color: var(--color-background-yellow);
+}
+
+
+.our-exhibitions {
+    background-color: var(--color-background-yellow);
+    text-align: center;
+}
+
+.exhibitions-content {
+    text-align: center;
+    margin: auto;
+    padding: 80px 40px;
+}
+
+.new-exhibitions, .past-exhibitions {
+    background-color: var(--color-background-blue);
+    text-align: center;
+    padding: 40px 0px;
+}
+
+
+/*NESTED BUTTONS*/
+
+.nested-buttons {
+    display: none;
+}
+

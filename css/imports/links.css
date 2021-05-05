@@ -1,9 +1,16 @@
-button {
+.button {
     font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
-    width: 100%;
-    max-width: 200px;
     padding: 15px 40px;
     border: none;
     background-color: var(--color-purple);
     color: white;
 }
+
+.link-button {
+    color: var(--color-purple);
+    text-decoration: underline;
+}
+
+
+
+

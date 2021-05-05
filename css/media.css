@@ -50,6 +50,10 @@
         align-items: center;
     }
 
+    .join-buttons {
+        flex-direction: row;
+    }
+
 
 }
 
@@ -70,28 +74,20 @@
     /*SIGN UP FORM*/
     .signup {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        padding: 40px;
+        padding: 60px 40px;
     }
 
-    .signup > div {
+    .signup-input {
+        width: 15rem;
+    }
+
+    .signup-desktop {
         display: flex;
-    }
-
-    .signup-form {
-        flex: 1;
-        height: 50px;
         align-items: center;
-        justify-content: flex-end;
     }
-
-    .signup-heading {
-        flex: 1;
-    }
-
-    .signup-desktop, .signup-input {
-        width: 100%;
-    }
+    
 
     /*FOOTER*/
     .footer-layout, .footer-flex {
@@ -136,6 +132,7 @@
         order: 2;
     }
 
+
 }
 
 /* LAPTOP VIEWPORT*/
@@ -153,6 +150,8 @@
 
     .scrolling-wrapper {
         gap: 30px;
+        margin: 0px 80px;
+        padding: 0px 0px 60px 0px;
     }
 
     /*JOIN US*/
@@ -181,6 +180,37 @@
     left: 200px;
     background-position-y: 670px;
    }
+
+    /*OUR EXHIBITIONS*/
+
+    .nested-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 60px;
+    }
+    .our-exhibitions {
+        height: 500px;
+        background-image: url(/images/exhibitions-science-cosmo.svg);
+        background-repeat: no-repeat;
+        background-position-x: 840px;
+        background-position-y: 300px;
+    }
+
+    .exhibitions-content {
+        padding: 200px 60px;
+        width: 800px;
+    }
+
+    /*PAST EXHIBITIONS*/
+
+    .past-exhibitions {
+        padding: 200px 0px 40px 0px;
+        background-image: url(/images/exhibitions-robotics-cosmo.svg);
+        background-repeat: no-repeat;
+        background-position-x: -300px;
+
+    }
 }
 
 
@@ -191,6 +221,17 @@
     .explore {
         background-position-x: 700px;
         background-position-y: 730px;
+    }
+
+    /*OUR EXHIBITIONS*/
+
+    .exhibitions-content {
+        padding: 200px 60px;
+        width: 900px;
+    }
+
+    .our-exhibitions {
+        background-position-x: 1220px;
     }
 }
 
@@ -210,6 +251,15 @@
         height: 100vh;
         background-position-x: 1800px;
         background-position-y: 1080px;
+    }
+    /*OUR EXHIBITIONS*/
+
+    .our-exhibitions {
+        background-position-x: 2300px;
+    }
+
+    .exhibitions-content {
+        width: 1300px;
     }
 
 }

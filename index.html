@@ -37,11 +37,11 @@
 				<div class="hero-text">
 					<h1 class="hero-heading">Community of Oslo Science Museum</h1>
 					<p class="hero-paragraph">Come join us at the Community Science Museum where we’re committed to making science accessible to all. everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-					<button>SEE EXHIBITIONS</button>
+					<a href="/exhibitions.html" class="button">SEE EXHIBITIONS</a>
 				</div>
 			</section>
 			<section class="exhibitions">
-				<h2 class="exhibitions-heading">Explore Exhibitions</h2>
+				<h2 class="heading">Explore Exhibitions</h2>
 				<div class="scrolling-heading">
 					<a href="#"><i class="fas fa-arrow-left"></i></a>
 					<p>Swipe to see more</p>
@@ -69,7 +69,7 @@
 						<p>The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
 					</div>
 				</div>
-				<button>ALL EXHIBITIONS</button>
+				<a href="/exhibitions.html" class="button">ALL EXHIBITIONS</a>
 			</section>
 			<section class="join">
 				<div>
@@ -78,11 +78,18 @@
 				<div class="join-text">
 					<h2>Join Us</h2>
 					<p class="join-paragraph">We are always looking for people in our community to get involved. Young or old, everyone is welcome to join us in building the best science community in the world. Volunteer for us as a family or come alone, we can use all the help we can get and are always on the lookout for great people to join our community.</p>
-					<button>GET IN CONTACT</button>
+					<div class="join-buttons">
+						<div>
+							<a href="contact.html" class="button">GET IN CONTACT</a>
+						</div>
+						<div>
+							<a href="index.html" class="link-button">LEARN MORE</a>
+						</div>
+					</div>
 				</div>
 			</section>
 			<section class="news">
-				<h2 class="news-heading">News and Events</h2>
+				<h2 class="heading">News and Events</h2>
 				<div class="scrolling-heading">
 					<a href="#"><i class="fas fa-arrow-left"></i></a>
 					<p>Swipe to see more</p>
@@ -110,10 +117,10 @@
 						<p>Scientists have discovered hundreds of volcanoes throughout our solar system, including on Mercury, Mars, Io, Enceladus, and even on Pluto! Uncover the mysteries lying beneath the surface and discover all that volcanoes can reveal about the evolution of worlds beyond earth.</p>
 					</div>
 				</div>
-				<button>GET  IN CONTACT</button>
+				<a href="index.html" class="button">GET IN CONTACT</a>
 			</section>
 			<section class="explore">
-				<h2 class="explore-heading">How to Explore?</h2>
+				<h2 class="heading">How to Explore?</h2>
 				<div class="scrolling-heading">
 					<a href="#"><i class="fas fa-arrow-left"></i></a>
 					<p>Swipe to see more</p>
@@ -138,14 +145,18 @@
 				</div>
 			</section>
 			<section class="signup">
-				<div class="signup-heading">
+				<div>
 					<h2>Join our newsletter</h2>
 				</div>
-				<div class="signup-form">
+				<div>
 					<form action="#" method="POST" id="signup-form" class="signup-desktop">
-						<input type="email" name="email" class="signup-input" placeholder="Type email here...">
+						<div>
+							<input type="email" name="email" class="signup-input" placeholder="Type email here...">
+						</div>
+						<div>
+							<input type="submit" form="signup-form" value="SIGN UP NOW" onclick="alert('Success!')" class="button">
+						</div>
 					</form>
-				  	<button type="submit" form="signup-form" value="Submit" onclick="alert('Success!')">SIGN UP NOW</button>
 				</div>
 			</section>
 		</main>

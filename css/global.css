@@ -32,6 +32,7 @@ p {
 
 a {
     text-decoration: none;
+    color: var(--color-purple);
 }
 
 /*NAVIGATION*/
@@ -107,6 +108,16 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.heading {
+    margin-bottom: 50px;
+}
+
+/*LEFT AND RIGHT BUTTONS*/
+
+.fa-arrow-left, .fa-arrow-right {
+    color: var(--color-purple);
 }
 
 
