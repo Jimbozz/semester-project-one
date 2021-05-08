@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="405" height="286" viewBox="0 0 405 286">
+    <defs>
+        <style>
+            .cls-2{fill:#60e6b2}
+        </style>
+    </defs>
+    <g id="Group_285" transform="translate(-1425 -2182)">
+        <path id="landscape-5072202_1280" fill="#4dce9c" d="M0 0H405V286H0z" transform="translate(1425 2182)"/>
+        <g id="shopping-cart" transform="translate(1547.275 2239.504)">
+            <g id="Group_108" transform="translate(6.913 -.001)">
+                <g id="Group_107">
+                    <circle id="Ellipse_20" cx="20.214" cy="20.214" r="20.214" class="cls-2" transform="translate(45.584 130.565)"/>
+                    <path id="Path_1460" d="M286.711 324.1a20.214 20.214 0 1 0 20.214 20.214 20.214 20.214 0 0 0-20.214-20.214z" class="cls-2" transform="translate(-161.922 -193.533)"/>
+                    <path id="Path_1461" d="M166.147 109.938h-105.4l-2.062-11.963h86.63a6.188 6.188 0 0 0 5.775-3.919l20.626-51.978a6.188 6.188 0 0 0-5.775-8.457H47.959l-4.95-28.464A6.188 6.188 0 0 0 36.821 0H13.1a6.188 6.188 0 0 0 0 12.376h18.564L49.4 117.157a6.188 6.188 0 0 0 6.188 5.157h110.559a6.188 6.188 0 0 0 0-12.376z" class="cls-2" transform="translate(-6.913 .001)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

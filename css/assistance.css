@@ -1,0 +1,71 @@
+.assistance {
+    background-color: var(--color-background-blue);
+    padding: 80px 40px;
+}
+
+.assistance > h1, p {
+    text-align: center;
+}
+
+
+/*ACCORDION STYLE*/
+
+input {
+  display: none;
+}
+
+.faq-container {
+  margin: 100px auto;
+  color: var(--color-purple);
+  max-width: 800px;
+}
+
+.faq-container label {
+  display: block;    
+  padding: 20px 0px;
+  cursor: pointer;
+  transition: ease .5s;
+  position: relative;
+}
+
+.faq-container label:hover {
+  background: #54b993;
+}
+
+.content {
+  padding: 20px 25px;
+  margin: 0px;
+}
+
+.content > p {
+    text-align: left;
+}
+
+input + label + .content {
+  display: none;
+}
+
+input:checked + label + .content {
+  display: block;
+  
+}
+.faq-container label::after {
+  content: '+';
+  font-size: 22px;
+  font-weight: 400;
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+.faq-container input:checked + label::after {
+  content: '-';
+  top: 30px;
+}
+
+div > label {
+  border-style:  solid none none none ;
+  border-width: 1px;
+}
+.faq-container .last-label {
+  border-style:  solid none solid none;
+}

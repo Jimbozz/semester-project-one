@@ -1,0 +1,48 @@
+.header-style {
+    background-color: var(--color-pink);
+}
+
+.contact {
+    background-color: var(--color-pink);
+    text-align: center;
+}
+
+.contact-info {
+    padding: 80px 40px;
+}
+
+.contact-info > p {
+    margin: 15px auto;
+    max-width: 600px;
+}
+
+.contact-form {
+    margin: 60px auto;
+    text-align: left;
+    max-width: 600px;
+}
+
+.contact-form > label {
+    display: block;
+}
+
+.contact-form > * {
+    width: 100%;
+}
+
+input, textarea {
+    background-color: #f0affd;
+    border: none;
+    padding: 15px;
+    margin: 5px 0px 30px 0px;
+}
+
+address {
+    font-style: normal;
+}
+
+.information {
+    text-align: center;
+    background-color: var(--color-background-blue);
+    padding: 40px 0px;
+}

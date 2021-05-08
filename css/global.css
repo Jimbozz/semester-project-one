@@ -60,15 +60,22 @@ header {
 
 .hamburger-icon {
     color: var(--color-purple);
+    display: block;
 }
 
 nav {
     display: none;
+    position: fixed;
 }  
 
 ul {
     list-style: none;
     padding: 0px;
+}
+
+.nav-style {
+    margin-left: -80px;
+    text-align: right;
 }
 
 /* HORIZONTAL CARD LAYOUT*/
@@ -118,6 +125,12 @@ ul {
 
 .fa-arrow-left, .fa-arrow-right {
     color: var(--color-purple);
+}
+
+/*EMAIL LINKS*/
+
+.email-address {
+    text-decoration: underline;
 }
 
 

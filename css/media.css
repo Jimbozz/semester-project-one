@@ -61,6 +61,11 @@
 @media screen and (min-width: 768px) {
 
 
+    /*NAV*/
+    nav {
+        position: inherit;
+    }
+
     /*EXHIBITIONS*/
     .card {
         flex: 1;
@@ -87,6 +92,18 @@
         display: flex;
         align-items: center;
     }
+
+    /*ABOUT*/
+
+    .about-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .about-info {
+        margin: 80px;
+    }
+
     
 
     /*FOOTER*/
@@ -172,13 +189,13 @@
 
 
    .explore {
-    display: inline-block;
-    height: 960px;
-    background-image: url(/images/planets-background-cosmo.svg);
-    background-repeat: no-repeat;
-    background-position-x: 500px;
-    left: 200px;
-    background-position-y: 670px;
+        display: inline-block;
+        height: 960px;
+        background-image: url(/images/planets-background-cosmo.svg);
+        background-repeat: no-repeat;
+        background-position-x: 500px;
+        left: 200px;
+        background-position-y: 670px;
    }
 
     /*OUR EXHIBITIONS*/
@@ -211,6 +228,13 @@
         background-position-x: -300px;
 
     }
+
+    /*ABOUT*/
+
+    .about-info {
+        margin: 120px;
+    }
+
 }
 
 
@@ -232,6 +256,12 @@
 
     .our-exhibitions {
         background-position-x: 1220px;
+    }
+
+    /*ABOUT*/
+
+    .about-info {
+        margin: 180px;
     }
 }
 
@@ -261,6 +291,13 @@
     .exhibitions-content {
         width: 1300px;
     }
+
+    /*ABOUT*/
+
+    .about-info {
+        margin: 180px auto ;
+    }
+
 
 }
 

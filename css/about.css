@@ -1,0 +1,43 @@
+.header-style, .about-hero {
+    background-color: var(--color-background-yellow);
+}
+
+.about-hero > h1 {
+    padding: 200px 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+.about-hero {
+    background-image: url(/images/about-cosmo.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-y: 400px;
+    background-size: 250px;
+    padding: 50px 20px;
+}
+
+.about-info {
+    margin: 40px;
+    max-width: 1500px;
+}
+
+.about-info > p {
+    margin-bottom: 20px;
+}
+
+p:nth-child(2) {
+    padding-bottom: 60px;
+}
+
+p:nth-child(3) {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.about-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}

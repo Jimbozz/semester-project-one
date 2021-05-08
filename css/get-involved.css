@@ -13,8 +13,15 @@ li > a {
 .get-involved > h1 {
     color: white;
     padding: 200px 0px;
+    margin: 0px;
 }
 
 .fa-bars {
     color: var(--color-background-blue);
+}
+
+.involved {
+    background-color: var(--color-background-yellow);
+    padding: 40px 0px;
+    text-align: center;
 }
