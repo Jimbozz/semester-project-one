@@ -80,7 +80,7 @@ ul {
 
 /* HORIZONTAL CARD LAYOUT*/
 
-.scrolling-wrapper {
+.scrolling-wrapper, .scrolling-wrapper-two {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -91,12 +91,12 @@ ul {
 }
 
     /* Remove scrollbar for Chrome, Safari and Opera */
-.scrolling-wrapper::-webkit-scrollbar {
+.scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-two::-webkit-scrollbar {
     display: none;
   }
 
     /* Remove scrollbar for IE, Edge and Firefox */
-.scrolling-wrapper {
+.scrolling-wrapper, .scrolling-wrapper-two {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
