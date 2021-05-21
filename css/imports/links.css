@@ -4,12 +4,22 @@
     border: none;
     background-color: var(--color-purple);
     color: white;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 0.6em 1em -0.6em var(--color-purple);
 }
 
 .link-button {
-    color: var(--color-purple);
     text-decoration: underline;
 }
+
+.link-button:hover {
+    font-weight: bold;
+}
+
 
 
 

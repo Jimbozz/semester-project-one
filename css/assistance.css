@@ -7,6 +7,13 @@
     text-align: center;
 }
 
+.assistance-text {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
 
 /*ACCORDION STYLE*/
 
@@ -41,6 +48,10 @@ input {
     text-align: left;
 }
 
+.tel {
+    text-decoration: underline;
+}
+
 input + label + .content {
   display: none;
 }
@@ -62,7 +73,7 @@ input:checked + label + .content {
   top: 30px;
 }
 
-div > label {
+.faq-border > label {
   border-style:  solid none none none ;
   border-width: 1px;
 }

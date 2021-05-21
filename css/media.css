@@ -71,13 +71,6 @@
         width: 33%;
     }
 
-    .scrolling-heading {
-        justify-content: space-evenly;
-    }
-
-    .scrolling-wrapper-two > .card {
-        width: 33%;
-    }
 
 
     /*SIGN UP FORM*/
@@ -108,23 +101,27 @@
         margin: 80px;
     }
 
-    /*EXPLORE*/
 
+    /*ASSISTANCE*/
+
+    .faq-container label::after {
+        top: 38px;
+    }
+
+    /*CONTACT*/
     .card-two {
-        flex: auto;
+        width: 40%;
     }
 
-    /*GET INVOLVED*/
+    /*GET INVOVED*/
 
-    .involved > .scrolling-heading {
-        display: none;
-    }
-
-    .scrolling-wrapper > .card {
+    .card-three {
         flex: 1;
     }
 
-    
+    .scrolling-heading-two {
+        display: none;
+    }
 
     /*FOOTER*/
     .footer-layout, .footer-flex {
@@ -178,7 +175,7 @@
 
     /*HERO SECTION*/
     .hero-paragraph {
-        max-width: 600px;
+        max-width: 830px;
     }
 
 
@@ -193,6 +190,10 @@
     .scrolling-heading {
         justify-content: center;
         gap: 40px;
+    }
+
+    .card {
+        width: 28%;
     }
 
 
@@ -247,8 +248,20 @@
     /*ABOUT*/
 
     .about-info {
-        margin: 120px;
+        margin: 120px auto;
+        max-width: 60%;
     }
+
+    /*CONTACT*/
+
+    .card-two {
+        flex: 1;
+    }
+
+    .scrolling-heading {
+        display: none;
+    }
+
 
 }
 
@@ -322,6 +335,11 @@
         display: none;
     }
 
+    /*ASSISTANCE*/
+
+    .faq-container label::after {
+        top: 45px;
+    }
     
     
 

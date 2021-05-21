@@ -9,7 +9,7 @@
 
 .hero-image, .join-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 800px;
     margin-bottom: 40px;
 }
 
@@ -139,10 +139,12 @@ footer div {
 
 .address {
     font-style: normal;
+    height: 21px;
 }
 
 .footer-address, .footer-copyright {
     margin: 0px;
+    font-size: 0.8rem;
     text-align: center;
 }
 

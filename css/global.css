@@ -42,12 +42,11 @@ a {
 }
 
 header {
-    display: grid;
-    grid-template-columns: minmax(100px, 1fr) repeat(1, auto);
-    grid-gap: 56px;
+    display: flex;
     align-items: center;
     background-color: var(--color-background-blue);
     padding: 20px 40px;
+    justify-content: space-between;
 }
 
 #hamburger-menu {
@@ -78,6 +77,20 @@ ul {
     text-align: right;
 }
 
+li {
+    transition: all .2s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+.active {
+    font-weight: bold;
+}
+
+
+
 /* HORIZONTAL CARD LAYOUT*/
 
 .scrolling-wrapper, .scrolling-wrapper-two {
@@ -101,7 +114,7 @@ ul {
     scrollbar-width: none;  /* Firefox */
   }
     
-.card {
+.card, .card-two, .card-three {
     flex: 0 0 auto;
     width: 95%;
 }
@@ -111,14 +124,22 @@ ul {
     margin-bottom: 20px;
 }
 
-.scrolling-heading {
+.scrolling-heading, .scrolling-heading-two, .scrolling-heading-three {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 60px;
 }
 
 .heading {
     margin-bottom: 50px;
+}
+
+.exhibition-date {
+    font-weight: 600;
+    color: var(--color-purple);
+    font-size: 0.8rem;
+    margin: 10px 0px;
 }
 
 /*LEFT AND RIGHT BUTTONS*/
