@@ -309,7 +309,8 @@
     /*ABOUT*/
 
     .about-info {
-        margin: 180px;
+        padding: 100px;
+        margin: auto;
     }
 }
 
@@ -360,6 +361,14 @@
 
     .about-info {
         margin: 180px auto ;
+    }
+
+
+
+    /*GET-INVOLVED*/
+
+    .involved {
+        padding: 100px 0px;
     }
 
 

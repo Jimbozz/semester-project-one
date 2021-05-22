@@ -11,7 +11,7 @@ html {
 
 body {
 	font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
-	font-size: calc(12px + 0.3vw);
+	font-size: calc(13px + 0.3vw);
 	line-height: 1.4;
 	margin: 0;
 	padding: 0;
@@ -138,7 +138,6 @@ li:hover {
 .exhibition-date {
     font-weight: 600;
     color: var(--color-purple);
-    font-size: 0.8rem;
     margin: 10px 0px;
 }
 
