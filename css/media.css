@@ -207,7 +207,7 @@
     /*HOW TO EXPLORE*/
     .explore {
         display: inline-block;
-        background-image: url(/images/planets-background-cosmo.svg);
+        background-image: url(/images/planets-background-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
         background-repeat: no-repeat;
         background-position: right -180px bottom -290px;
     }
@@ -215,7 +215,7 @@
     /*OUR EXHIBITIONS*/
     .our-exhibitions {
         height: 500px;
-        background-image: url(/images/exhibitions-science-cosmo.svg);
+        background-image: url(/images/exhibitions-science-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
         background-repeat: no-repeat;
         background-position: right bottom -90px;
     }
@@ -228,7 +228,7 @@
     /*PAST EXHIBITIONS*/
     .past-exhibitions {
         padding: 200px 0px 40px 0px;
-        background-image: url(/images/exhibitions-robotics-cosmo.svg);
+        background-image: url(/images/exhibitions-robotics-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
         background-repeat: no-repeat;
         background-position-x: -300px;
     }
@@ -250,7 +250,7 @@
     }
 
     .contact {
-        background-image: url(/images/contact-cosmo.svg);
+        background-image: url(/images/contact-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
         background-repeat: no-repeat;
         background-position-x: -250px;
         background-size: 500px;

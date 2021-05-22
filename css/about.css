@@ -9,7 +9,7 @@
 }
 
 .about-hero {
-    background-image: url(/images/about-cosmo.svg);
+    background-image: url(/images/about-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
     background-repeat: no-repeat;
     background-position: bottom;
     background-position-y: 400px;
