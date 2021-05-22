@@ -143,6 +143,7 @@ li:hover {
 
 .fa-arrow-left, .fa-arrow-right {
     color: var(--color-purple);
+    margin: 0px 10px;
 }
 
 /*EMAIL LINKS*/

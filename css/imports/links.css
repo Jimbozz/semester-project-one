@@ -20,6 +20,10 @@
     text-decoration: underline;
 }
 
+.link-container {
+    margin: 20px;
+}
+
 .link-button:hover {
     font-weight: bold;
 }
