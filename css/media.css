@@ -1,13 +1,113 @@
+
 /*SMALL VIEWPORT*/
+@media screen and (min-width: 768px) {
+
+
+    /*NAV*/
+    nav {
+        position: inherit;
+    }
+
+    /*EXHIBITIONS*/
+    .card {
+        width: 33%;
+    }
+
+    /*SIGN UP FORM*/
+    .signup {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 40px;
+    }
+
+    .signup-input {
+        width: 20rem;
+    }
+
+    .signup-desktop {
+        display: flex;
+        align-items: center;
+    }
+
+    /*ABOUT*/
+    .about-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .about-info {
+        margin: 80px;
+    }
+
+    /*ASSISTANCE*/
+    .faq-container label::after {
+        top: 38px;
+    }
+
+    /*CONTACT*/
+    .card-two {
+        width: 40%;
+    }
+
+    /*GET INVOVED*/
+
+    .card-three {
+        flex: 1;
+    }
+
+    .scrolling-heading-two {
+        display: none;
+    }
+
+    /*FOOTER*/
+    .footer-layout, .footer-flex {
+        display: flex;
+    }
+
+    .footer-flex {
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+    .footer-logo, .footer-flex {
+        flex: 1;
+    }
+
+    footer img {
+        padding: 0px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .social {
+        order: 3;
+    }
+
+    .footer-address, .footer-copyright, .social {
+        margin: 0px;
+    }
+
+    .footer-copyright {
+        order: 1;
+    }
+
+    .footer-address {
+        order: 2;
+    }
+}
+
+/*MEDIUM VIEWPORT*/
 
 @media screen and (min-width: 769px) {
 
     /*NAVIGATION*/
-
-    #hamburger-menu {
-        display: none;
-    }
-    .hamburger-icon {
+    #hamburger-menu, .hamburger-icon {
         display: none;
     }
 
@@ -53,120 +153,6 @@
     .join-buttons {
         flex-direction: row;
     }
-
-
-}
-
-/*MEDIUM VIEWPORT*/
-@media screen and (min-width: 768px) {
-
-
-    /*NAV*/
-    nav {
-        position: inherit;
-    }
-
-    /*EXHIBITIONS*/
-    .card {
-        width: 33%;
-    }
-
-
-
-    /*SIGN UP FORM*/
-    .signup {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 60px 40px;
-    }
-
-    .signup-input {
-        width: 20rem;
-    }
-
-    .signup-desktop {
-        display: flex;
-        align-items: center;
-    }
-
-    /*ABOUT*/
-
-    .about-buttons {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .about-info {
-        margin: 80px;
-    }
-
-
-    /*ASSISTANCE*/
-
-    .faq-container label::after {
-        top: 38px;
-    }
-
-    /*CONTACT*/
-    .card-two {
-        width: 40%;
-    }
-
-    /*GET INVOVED*/
-
-    .card-three {
-        flex: 1;
-    }
-
-    .scrolling-heading-two {
-        display: none;
-    }
-
-    /*FOOTER*/
-    .footer-layout, .footer-flex {
-        display: flex;
-    }
-
-    .footer-flex {
-        flex: 1;
-        justify-content: space-evenly;
-        gap: 2rem;
-    }
-
-    .footer-logo {
-        flex: 1;
-    }
-
-    footer img {
-        padding: 0px;
-    }
-
-    .footer-bottom {
-        display: flex;
-        justify-content: space-between;
-        margin: 0px;
-        align-items: center;
-    }
-
-    .social {
-        order: 3;
-        margin: 0px;
-    }
-
-    .footer-address, .footer-copyright {
-        margin: 0px;
-    }
-
-    .footer-copyright {
-        order: 1;
-    }
-
-    .footer-address {
-        order: 2;
-    }
-
-
 }
 
 /* LAPTOP VIEWPORT*/
@@ -178,9 +164,7 @@
         max-width: 830px;
     }
 
-
     /*EXHIBITIONS*/
-
     .scrolling-wrapper, .scrolling-wrapper-two {
         gap: 30px;
         padding: 20px 40px;
@@ -196,8 +180,7 @@
         width: 28%;
     }
 
-
-    /*JOIN US*/
+    /*JOIN*/
     .join-image {
         margin: 0px;
         padding: 30px;
@@ -219,17 +202,14 @@
     }
 
     /*HOW TO EXPLORE*/
-
-
-   .explore {
+    .explore {
         display: inline-block;
         background-image: url(/images/planets-background-cosmo.svg);
         background-repeat: no-repeat;
         background-position: right -180px bottom -290px;
-   }
+    }
 
     /*OUR EXHIBITIONS*/
-
     .our-exhibitions {
         height: 500px;
         background-image: url(/images/exhibitions-science-cosmo.svg);
@@ -243,24 +223,20 @@
     }
 
     /*PAST EXHIBITIONS*/
-
     .past-exhibitions {
         padding: 200px 0px 40px 0px;
         background-image: url(/images/exhibitions-robotics-cosmo.svg);
         background-repeat: no-repeat;
         background-position-x: -300px;
-
     }
 
     /*ABOUT*/
-
     .about-info {
         margin: 120px auto;
         max-width: 60%;
     }
 
     /*CONTACT*/
-
     .card-two {
         flex: 1;
     }
@@ -299,15 +275,12 @@
     }
 
     /*OUR EXHIBITIONS*/
-
     .exhibitions-content {
         padding: 200px 60px;
         width: 900px;
     }
 
-
     /*ABOUT*/
-
     .about-info {
         padding: 100px;
         margin: auto;
@@ -327,50 +300,28 @@
     }
 
     /*OUR EXHIBITIONS*/
-
-
     .scrolling-wrapper > .card {
         flex: 1;
     }
 
-    .new-exhibitions > .scrolling-heading {
-        display: none;
-    }
-
-    .exhibitions > .scrolling-heading {
-        display: none;
-    }
-
-    .news > .scrolling-heading {
-        display: none;
-    }
-
-    .explore > .scrolling-heading {
+    .new-exhibitions .exhibitions .news .explore > .scrolling-heading {
         display: none;
     }
 
     /*ASSISTANCE*/
-
     .faq-container label::after {
         top: 45px;
     }
     
-    
-
     /*ABOUT*/
-
     .about-info {
         margin: 180px auto ;
     }
 
-
-
     /*GET-INVOLVED*/
-
     .involved {
         padding: 100px 0px;
     }
-
 
 }
 
