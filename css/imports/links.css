@@ -1,3 +1,5 @@
+/*LARGE BUTTON*/
+
 .button {
     font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px 40px;
@@ -9,8 +11,10 @@
 }
 
 .button:hover {
-    box-shadow: 0 0.6em 1em -0.6em var(--color-purple);
+    box-shadow: -0.3em 0.3em var(--color-darkpurple);
 }
+
+/*LINK BUTTON*/
 
 .link-button {
     text-decoration: underline;

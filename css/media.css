@@ -82,7 +82,7 @@
     }
 
     .signup-input {
-        width: 15rem;
+        width: 20rem;
     }
 
     .signup-desktop {
@@ -201,7 +201,6 @@
     .join-image {
         margin: 0px;
         padding: 30px;
-        
     }
 
     .join > * {
@@ -209,6 +208,14 @@
     }
     .hero > * {
         flex: 1 1 0;
+    }
+
+    .join-text {
+        padding-left: 60px;
+    }
+
+    .join-paragraph {
+        margin: 20px 0px;
     }
 
     /*HOW TO EXPLORE*/
@@ -262,6 +269,12 @@
         display: none;
     }
 
+    .contact {
+        background-image: url(/images/contact-cosmo.svg);
+        background-repeat: no-repeat;
+        background-position-x: -250px;
+        background-size: 500px;
+    }
 
 }
 
