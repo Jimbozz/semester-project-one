@@ -97,7 +97,6 @@ li:hover {
     overflow-x: auto;
     padding: 20px 20px 60px 20px;
     -webkit-overflow-scrolling: touch;
-    gap: 20px;
     text-align: left;
 }
 
@@ -115,6 +114,7 @@ li:hover {
 .card, .card-two, .card-three {
     flex: 0 0 auto;
     width: 95%;
+    margin: 10px;
 }
 
 .card-image {
