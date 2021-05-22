@@ -155,6 +155,59 @@ li:hover {
 }
 
 
+/*FOOTER*/
+
+footer {
+    background-color: var(--color-purple);
+    color: white;
+    padding: 20px;
+}
+
+footer img {
+    padding: 50px 0px;
+}
+
+footer a {
+    color: white;
+    font-family: var(--text-paragraph);
+    font-size: 0.9rem;
+}
+
+.footer-list li {
+    margin: 10px 0px;
+}
+
+.footer-list h4 {
+    color: var(--color-background-blue);
+    margin-bottom: 30px;
+}
+
+footer div {
+    margin-bottom: 60px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > a {
+    font-size: 1.6rem;
+    color: var(--color-background-blue);
+    padding: 0px 10px;
+}
+
+
+.address {
+    font-style: normal;
+    height: 21px;
+}
+
+.footer-address, .footer-copyright {
+    margin: 0px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
 
 
 
