@@ -8,6 +8,10 @@
         position: inherit;
     }
 
+    .nav-style > li {
+        margin: 10px;
+    }
+
     /*EXHIBITIONS*/
     .card {
         width: 33%;
@@ -154,6 +158,23 @@
         flex-direction: row;
     }
 }
+
+
+@media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) { @media { 
+    /* Define class here */ 
+
+    .nav-style > li {
+       
+    }
+}}
+
+@supports (-webkit-backdrop-filter: blur(1px)) {
+    svg {
+      height: intrinsic;
+    }
+  }
+
+
 
 /* LAPTOP VIEWPORT*/
 @media screen and (min-width: 1024px) {
