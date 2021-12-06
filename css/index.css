@@ -1,20 +1,25 @@
 /*HERO SECTION, JOIN US*/
 
 .hero {
-    background-color: var(--color-background-blue);
-    text-align: center;
-    padding: 50px 20px;
-    align-items: center;
+	background-color: var(--color-background-blue);
+	text-align: center;
+	padding: 50px 20px;
+	align-items: center;
+}
+
+.hero-text {
+	max-width: 70vw;
+	margin: 0 auto;
 }
 
 .hero-image, .join-image {
-    width: 100%;
-    max-width: 800px;
-    margin-bottom: 40px;
+	width: 100%;
+	max-width: 800px;
+	margin-bottom: 40px;
 }
 
 .hero-paragraph, .join-paragraph {
-    padding-bottom: 40px;
+	padding-bottom: 40px;
 }
 
 
@@ -24,9 +29,9 @@
 
 
 .exhibitions {
-    background-color: var(--color-background-yellow);
-    padding: 80px 0px;
-    text-align: center;
+	background-color: var(--color-background-yellow);
+	padding: 80px 0px;
+	text-align: center;
 }
 
 
@@ -36,24 +41,24 @@
 
 
 .join {
-    background-color: white;
-    text-align: center;
-    padding: 50px 20px;
+	background-color: white;
+	text-align: center;
+	padding: 50px 20px;
 }
 
 .join-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
 }
 
 
 /*NEWS AND EVENTS, SIGNUP*/
 
 .news, .signup {
-    background-color: var(--color-background-blue);
-    padding: 80px 0px;
-    text-align: center;
+	background-color: var(--color-background-blue);
+	padding: 80px 0px;
+	text-align: center;
 }
 
 
@@ -61,34 +66,33 @@
 
 
 .explore {
-    background-color: var(--color-background-yellow);
-    padding: 80px 0px;
-    text-align: center;
-    
+	background-color: var(--color-background-yellow);
+	padding: 80px 0px;
+	text-align: center;
 }
 
 .explore-heading {
-    text-align: center;
+	text-align: center;
 }
 
 .card-two {
-    flex: 0 0 auto;
-    width: 95%;
+	flex: 0 0 auto;
+	width: 95%;
 }
 
 /*NEWSLETTER*/
 
 
 .signup-input {
-    border: none;
-    width: 80%;
-    padding-left: 10px;
-    height: 3rem;
-    margin: 30px 0px;
-    background-color: #a5f7d7;
+	border: none;
+	width: 80%;
+	padding-left: 10px;
+	height: 3rem;
+	margin: 30px 0px;
+	background-color: #a5f7d7;
 }
 
 .signup {
-    background-color: var(--color-background-blue);
-    padding: 60px 0px
+	background-color: var(--color-background-blue);
+	padding: 60px 0px
 }

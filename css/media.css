@@ -3,269 +3,307 @@
 @media screen and (min-width: 768px) {
 
 
-    /*NAV*/
-    nav {
-        position: inherit;
-    }
+	/*NAV*/
+	/* nav {
+			position: inherit;
+	}
 
-    .nav-style > li {
-        margin: 10px;
-    }
+	.nav-style > li {
+			margin: 10px;
+	} */
 
-    /*EXHIBITIONS*/
-    .card {
-        width: 33%;
-    }
 
-    /*SIGN UP FORM*/
-    .signup {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 60px 40px;
-    }
+	/*EXHIBITIONS*/
+	.card {
+		width: 33%;
+	}
 
-    .signup-input {
-        width: 20rem;
-    }
+	/*SIGN UP FORM*/
+	.signup {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 60px 40px;
+	}
 
-    .signup-desktop {
-        display: flex;
-        align-items: center;
-    }
+	.signup-input {
+		width: 20rem;
+	}
 
-    /*ABOUT*/
-    .about-buttons {
-        flex-direction: row;
-        justify-content: center;
-    }
+	.signup-desktop {
+		display: flex;
+		align-items: center;
+	}
 
-    .about-info {
-        margin: 80px;
-    }
+	/*ABOUT*/
+	.about-buttons {
+		flex-direction: row;
+		justify-content: center;
+	}
 
-    /*ASSISTANCE*/
-    .faq-container label::after {
-        top: 38px;
-    }
+	.about-info {
+		margin: 80px;
+	}
 
-    /*CONTACT*/
-    .card-two {
-        width: 40%;
-    }
+	/*ASSISTANCE*/
+	.faq-container label::after {
+		top: 38px;
+	}
 
-    /*GET INVOVED*/
+	/*CONTACT*/
+	.card-two {
+		width: 40%;
+	}
 
-    .card-three {
-        flex: 1;
-    }
+	/*GET INVOVED*/
 
-    .scrolling-heading-two {
-        display: none;
-    }
+	.card-three {
+		flex: 1;
+	}
 
-    /*FOOTER*/
-    .footer-layout, .footer-flex {
-        display: flex;
-    }
+	.scrolling-heading-two {
+		display: none;
+	}
 
-    .footer-flex {
-        justify-content: space-evenly;
-        gap: 2rem;
-    }
+	/*FOOTER*/
+	.footer-layout, .footer-flex {
+		display: flex;
+	}
 
-    .footer-logo, .footer-flex {
-        flex: 1;
-    }
+	.footer-flex {
+		justify-content: space-evenly;
+		gap: 2rem;
+	}
 
-    footer img {
-        padding: 0px;
-    }
+	.footer-logo, .footer-flex {
+		flex: 1;
+	}
 
-    .footer-bottom {
-        display: flex;
-        justify-content: space-between;
-        margin: 0px;
-        align-items: center;
-    }
+	footer img {
+		padding: 0px;
+	}
 
-    .social {
-        order: 3;
-    }
+	.footer-bottom {
+		display: flex;
+		justify-content: space-between;
+		margin: 0px;
+		align-items: center;
+	}
 
-    .footer-address, .footer-copyright, .social {
-        margin: 0px;
-    }
+	.social {
+		order: 3;
+	}
 
-    .footer-copyright {
-        order: 1;
-    }
+	.footer-address, .footer-copyright, .social {
+		margin: 0px;
+	}
 
-    .footer-address {
-        order: 2;
-    }
+	.footer-copyright {
+		order: 1;
+	}
+
+	.footer-address {
+		order: 2;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/*NAVIGATION MOBILE*/
+
+	.nav-menu{
+		position: fixed;
+		right: -100%;
+		top: -15px;
+		gap: 3rem;
+		flex-direction: column;
+		background-color: var(--color-background-blue);
+		width: 100%;
+		text-align: center;
+		transition: 0.3s;
+		height: 100vh;
+		justify-content: center;
+	}
+
+	.burger{
+		display: block;
+	}
+
+	.burger.active .line:nth-child(2){
+		opacity: 0;
+	}
+	.burger.active .line:nth-child(1){
+		transform: translateY(8px) rotate(45deg);
+	}
+	.burger.active .line:nth-child(3){
+		transform: translateY(-8px) rotate(-45deg);
+	}
+	.nav-menu.active{
+		right: 0;
+	}
 }
 
 /*MEDIUM VIEWPORT*/
 
 @media screen and (min-width: 769px) {
 
-    /*NAVIGATION*/
-    #hamburger-menu, .hamburger-icon {
-        display: none;
-    }
+	/*NAVIGATION*/
+	/* #hamburger-menu, .hamburger-icon {
+			display: none;
+	}
 
-    nav {
-        display: inline-block;
-    }
+	nav {
+			display: inline-block;
+	}
 
-    .nav-style {
-        display: flex;
-        gap: 2rem;
-        list-style: none;
-    }
+	.nav-style {
+			display: flex;
+			gap: 2rem;
+			list-style: none;
+	} */
 
-    .logo {
-        width: 180px;
-    }
+	.logo {
+		width: 180px;
+	}
 
-    /*HERO SECTION, JOIN US*/
-    .hero, .join {
-        display: flex;
-        text-align: left;
-        padding: 80px 40px;
-    }
+	
 
-    .hero-image {
-        order: 2;
-        max-width: 100%;
-    }
+	/*HERO SECTION, JOIN US*/
+	.hero, .join {
+		display: flex;
+		text-align: left;
+		padding: 80px 40px;
+	}
 
-    .hero-text {
-        order: -1;
-        margin-right: 80px;
-    }
+	.hero-image {
+		order: 2;
+		max-width: 100%;
+	}
 
-    .hero-heading , .hero-paragraph {
-        text-align: left;
-    }
+	.hero-text {
+		order: -1;
+		margin-right: 80px;
+		max-width: 50vw;
+	}
 
-    .join {
-        align-items: center;
-    }
+	.hero-heading , .hero-paragraph {
+		text-align: left;
+	}
 
-    .join-buttons {
-        flex-direction: row;
-        align-items: center;
-    }
+	.join {
+		align-items: center;
+	}
+
+	.join-buttons {
+		flex-direction: row;
+		align-items: center;
+	}
 }
 
 /* LAPTOP VIEWPORT*/
 @media screen and (min-width: 1024px) {
 
 
-    /*HERO SECTION*/
-    .hero-paragraph {
-        max-width: 830px;
-    }
+	/*HERO SECTION*/
+	.hero-paragraph {
+		max-width: 830px;
+	}
 
-    /*EXHIBITIONS*/
-    .scrolling-wrapper, .scrolling-wrapper-two {
-        padding: 20px 40px;
-        margin-bottom: 100px;
-    }
+	/*EXHIBITIONS*/
+	.scrolling-wrapper, .scrolling-wrapper-two {
+		padding: 20px 40px;
+		margin-bottom: 100px;
+	}
 
-    .scrolling-heading {
-        justify-content: center;
-        gap: 40px;
-    }
+	.scrolling-heading {
+		justify-content: center;
+		gap: 40px;
+	}
 
-    .card {
-        width: 28%;
-    }
+	.card {
+		width: 28%;
+	}
 
-    /*JOIN*/
-    .join-image {
-        margin: 0px;
-        padding: 30px;
-    }
+	/*JOIN*/
+	.join-image {
+		margin: 0px;
+		padding: 30px;
+	}
 
-    .join > * {
-        flex: 1 1 0;
-    }
-    .hero > * {
-        flex: 1 1 0;
-    }
+	.join > * {
+		flex: 1 1 0;
+	}
+	.hero > * {
+		flex: 1 1 0;
+	}
 
-    .join-text {
-        padding-left: 60px;
-    }
+	.join-text {
+		padding-left: 60px;
+	}
 
-    .join-paragraph {
-        margin: 20px 0px;
-    }
+	.join-paragraph {
+		margin: 20px 0px;
+	}
 
-    /*HOW TO EXPLORE*/
-    .explore {
-        display: inline-block;
-        background-image: url(/images/planets-background-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
-        background-repeat: no-repeat;
-        background-position: right -180px bottom -290px;
-    }
+	/*HOW TO EXPLORE*/
+	.explore {
+		display: inline-block;
+		background-image: url(/images/planets-background-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
+		background-repeat: no-repeat;
+		background-position: right -180px bottom -290px;
+	}
 
-    /*OUR EXHIBITIONS*/
-    .our-exhibitions {
-        height: 500px;
-        background-image: url(/images/exhibitions-science-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
-        background-repeat: no-repeat;
-        background-position: right bottom -90px;
-    }
+	/*OUR EXHIBITIONS*/
+	.our-exhibitions {
+		height: 500px;
+		background-image: url(/images/exhibitions-science-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
+		background-repeat: no-repeat;
+		background-position: right bottom -90px;
+	}
 
-    .exhibitions-content {
-        padding: 200px 60px;
-        width: 800px;
-    }
+	.exhibitions-content {
+		padding: 200px 60px;
+		width: 800px;
+	}
 
-    /*PAST EXHIBITIONS*/
-    .past-exhibitions {
-        padding: 200px 0px 40px 0px;
-        background-image: url(/images/exhibitions-robotics-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
-        background-repeat: no-repeat;
-        background-position-x: -300px;
-    }
+	/*PAST EXHIBITIONS*/
+	.past-exhibitions {
+		padding: 200px 0px 40px 0px;
+		background-image: url(/images/exhibitions-robotics-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
+		background-repeat: no-repeat;
+		background-position-x: -300px;
+	}
 
-    /*ABOUT*/
-    .about-info {
-        margin: 120px auto;
-        max-width: 60%;
-    }
+	/*ABOUT*/
+	.about-info {
+		margin: 120px auto;
+		max-width: 60%;
+	}
 
-    /*CONTACT*/
-    .card-two {
-        flex: 1;
-        margin: 15px;
-    }
+	/*CONTACT*/
+	.card-two {
+		flex: 1;
+		margin: 15px;
+	}
 
-    .scrolling-heading {
-        display: none;
-    }
+	.scrolling-heading {
+		display: none;
+	}
 
-    .contact {
-        background-image: url(/images/contact-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
-        background-repeat: no-repeat;
-        background-position-x: -250px;
-        background-size: 500px;
-    }
-
+	.contact {
+		background-image: url(/images/contact-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
+		background-repeat: no-repeat;
+		background-position-x: -250px;
+		background-size: 500px;
+	}
 }
 
 
 /*RETINA*/
 @media screen and (min-width: 1420px) {
 
-    .explore {
-        background-position: right -180px bottom -280px;
-    }
+	.explore {
+		background-position: right -180px bottom -280px;
+	}
 }
 
 
@@ -274,59 +312,59 @@
 @media screen and (min-width: 1440px) {
 
 
-    /*EXHIBITIONS*/
-    .card {
-        width: 30%;
-    }
+	/*EXHIBITIONS*/
+	.card {
+		width: 30%;
+	}
 
-    /*OUR EXHIBITIONS*/
-    .exhibitions-content {
-        padding: 200px 60px;
-        width: 900px;
-    }
+	/*OUR EXHIBITIONS*/
+	.exhibitions-content {
+		padding: 200px 60px;
+		width: 900px;
+	}
 
-    /*ABOUT*/
-    .about-info {
-        padding: 100px;
-        margin: auto;
-    }
+	/*ABOUT*/
+	.about-info {
+		padding: 100px;
+		margin: auto;
+	}
 }
 
 
-    
+		
 
 /* 4K VIEWPORT*/
 
 @media screen and (min-width: 1441px) {
 
-    /*NAVIGATION*/
-    .logo {
-        width: 340px;
-    }
+	/*NAVIGATION*/
+	.logo {
+		width: 340px;
+	}
 
-    /*OUR EXHIBITIONS*/
-    .scrolling-wrapper > .card {
-        flex: 1;
-    }
+	/*OUR EXHIBITIONS*/
+	.scrolling-wrapper > .card {
+		flex: 1;
+	}
 
-    .new-exhibitions .exhibitions .news .explore > .scrolling-heading {
-        display: none;
-    }
+	.new-exhibitions .exhibitions .news .explore > .scrolling-heading {
+		display: none;
+	}
 
-    /*ASSISTANCE*/
-    .faq-container label::after {
-        top: 45px;
-    }
-    
-    /*ABOUT*/
-    .about-info {
-        margin: 180px auto ;
-    }
+	/*ASSISTANCE*/
+	.faq-container label::after {
+		top: 45px;
+	}
+	
+	/*ABOUT*/
+	.about-info {
+		margin: 180px auto ;
+	}
 
-    /*GET-INVOLVED*/
-    .involved {
-        padding: 100px 0px;
-    }
+	/*GET-INVOLVED*/
+	.involved {
+		padding: 100px 0px;
+	}
 
 }
 
