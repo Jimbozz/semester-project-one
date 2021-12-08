@@ -64,9 +64,9 @@
 						<p>Kjelsåsveien 143, 0491 Oslo</p>
 					</address>
 				</div>
-				<form method="POST" class="form-layout" id="form" data-netlify="true" name="contact">
+				<form method="POST" class="form-layout" id="form" data-netlify="true" name="contact" data-netlify-recaptcha="true">
+					
 					<div class="contact-form">
-						<input type="hidden" name="contact" value="fullname"/>
 
 						<label for="fullname" class="form-label">FULL NAME*</label>
 						<input type="text" id="fullName" name="fullname" required>
@@ -83,7 +83,7 @@
 						<label for="message" class="form-label">MESSAGE*</label>
 						<textarea name="message" id="message" cols="30" rows="10" required></textarea>
 						<small class="formError" id="messageError">Must have a minimum length of 20 characters</small>
-
+						<div data-netlify-recaptcha="true" class="form-row"></div>
 						<button class="button" type="submit">Submit</button>
 					</div>
 				</form>
