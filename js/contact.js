@@ -66,8 +66,8 @@ function validation(event) {
     return false;
   }
 }
-
 form.addEventListener("submit", validation);
+
 
 
 //Check length
