@@ -68,7 +68,6 @@ function validation(event) {
 }
 
 form.addEventListener("submit", validation);
-console.log("clicked");
 
 
 //Check length

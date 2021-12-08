@@ -64,8 +64,10 @@
 						<p>Kjelsåsveien 143, 0491 Oslo</p>
 					</address>
 				</div>
-				<form method="POST" class="form-layout" id="form" data-netlify="true" name="contact">
+				<form method="POST" class="form-layout" id="form" action="/index.html" data-netlify="true" name="contact">
 					<div class="contact-form">
+						<input type="hidden" name="contact" value="fullname"/>
+
 						<label for="fullname" class="form-label">FULL NAME*</label>
 						<input type="text" id="fullName" name="fullname" required>
 						<small class="formError" id="nameError">Your name must be longer than 3 characters.</small>
