@@ -1,53 +1,84 @@
 .header-style {
-    background-color: var(--color-pink);
+	background-color: var(--color-pink);
 }
 
 .contact {
-    background-color: var(--color-pink);
-    text-align: center;
+	background-color: var(--color-pink);
+	text-align: center;
 }
 
 .form-header {
-    max-width: 600px;
-    margin: 0 auto;
+	max-width: 600px;
+	margin: 0 auto;
 }
 
-.contact-info {
-    padding: 80px 40px;
+.form-layout {
+	padding: 80px 40px;
 }
 
-.contact-info > p {
-    margin: 15px auto;
-    max-width: 600px;
+.form-layout > p {
+	margin: 15px auto;
+	max-width: 600px;
 }
 
 .contact-form {
-    margin: 60px auto;
-    text-align: left;
-    max-width: 600px;
+	margin: 60px auto;
+	text-align: left;
+	max-width: 600px;
 }
 
 .contact-form > label {
-    display: block;
+	display: block;
 }
 
 .contact-form > * {
-    width: 100%;
+	width: 100%;
 }
 
 input, textarea {
-    background-color: #f0affd;
-    border: none;
-    padding: 15px;
-    margin: 5px 0px 30px 0px;
+	background-color: #f0affd;
+	border: none;
+	padding: 15px;
+	/* margin: 5px 0px 30px 0px; */
 }
 
 address {
-    font-style: normal;
+	font-style: normal;
 }
 
 .information {
-    text-align: center;
-    background-color: var(--color-background-blue);
-    padding: 40px 0px;
+	text-align: center;
+	background-color: var(--color-background-blue);
+	padding: 40px 0px;
+}
+
+.formError {
+	display: none;
+	color: red;
+}
+
+.success {
+	color: green;
+	text-align: center;
+	border: 1px solid darkgreen;
+	padding: 1rem;
+	background: rgb(112, 240, 155);
+	height: 60vh;
+	width: 40vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/* .form-control:valid {
+	border: 1px solid green;
+  } */
+
+#nameError, #subjectError, #emailError, #messageError {
+	margin: 0px 0px 20px 0px;
+}
+
+.form-label {
+	margin: 20px 0px 10px 0px;
 }
