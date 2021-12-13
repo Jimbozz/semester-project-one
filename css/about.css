@@ -1,4 +1,4 @@
-.header-style, .about-hero {
+#header-style, .about-hero {
     background-color: var(--color-background-yellow);
 }
 

@@ -1,16 +1,12 @@
-.header-style {
+#header-style, .contact {
 	background-color: var(--color-pink);
-}
-
-.contact {
-	background-color: var(--color-pink);
-	text-align: center;
 }
 
 .form-header {
 	max-width: 600px;
 	margin: 0 auto;
 	padding-top: 8rem;
+	text-align: center;
 }
 
 .form-layout {

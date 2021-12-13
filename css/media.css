@@ -39,6 +39,7 @@
 	.about-buttons {
 		flex-direction: row;
 		justify-content: center;
+		align-items: center;
 	}
 
 	.about-info {
