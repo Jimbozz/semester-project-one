@@ -1,10 +1,14 @@
 const burger = document.querySelector(".burger");
 const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
+const lines = document.querySelectorAll(".line");
+
 
 burger.addEventListener("click", function() {
   burger.classList.toggle("active");
   navMenu.classList.toggle("active");
+  
+  
 })
 
 
@@ -14,3 +18,6 @@ navLink.forEach(function(item) {
     navMenu.classList.remove("active");
   })
 })
+
+
+

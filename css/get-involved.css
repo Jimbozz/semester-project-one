@@ -2,13 +2,13 @@
     background-color: var(--color-purple);
     text-align: center;
 }
-#header-style {
+/* #header-style {
     background-color: var(--color-purple);
-}
+} */
 
-li > a {
+/* li > a {
     color: var(--color-background-blue);
-}
+} */
 
 .get-involved > h1 {
     color: white;
@@ -25,4 +25,5 @@ li > a {
     padding: 40px 0px;
     text-align: center;
 }
+
   
