@@ -26,25 +26,11 @@
 		<link rel="stylesheet" href="/css/media.css">
 	</head>
 	<body>
-		<!-- <header>
-			<img src="/images/cosmo-logo-purple.png" class="logo" alt="Community of Oslo Science Museum">
-			<div class="hamburger-mobile">
-				<label for="hamburger-menu" class="hamburger-icon"><i class="fas fa-bars"></i></label>
-				<input type="checkbox" id="hamburger-menu">
-				<nav>
-					<ul class="nav-style">
-						<li><a href="/index.html" class="active">HOME</a></li>
-						<li><a href="/exhibitions.html">EXHIBITIONS</a></li>
-						<li><a href="/get-involved.html">GET INVOLVED</a></li>
-						<li><a href="/about.html">ABOUT</a></li>
-						<li><a href="/contact.html">CONTACT</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header> -->
 		<header>
 			<nav class="navbar">
-				<img src="/images/cosmo-logo-purple.png" class="logo" alt="Community of Oslo Science Museum">
+				<a href="/index.html">
+					<img src="/images/cosmo-logo-purple.png" class="logo" alt="Community of Oslo Science Museum">
+				</a>
 				<ul class="nav-menu">
 					<li class="nav-item">
 						<a href="/index.html" class="nav-link clicked">HOME</a>
@@ -223,16 +209,10 @@
 				<div>
 					<h2>Join our newsletter</h2>
 				</div>
-				<div>
-					<form action="#" method="POST" id="signup-form" class="signup-desktop">
-						<div>
-							<input type="email" name="email" class="signup-input" placeholder="Type email here...">
-						</div>
-						<div>
-							<input type="submit" form="signup-form" value="SIGN UP NOW" onclick="alert('Success!')" class="button">
-						</div>
-					</form>
-				</div>
+				<form data-netlify="true" method="post" id="signup-form" class="signup-desktop" name="footer-signup">
+					<input type="email" name="email" class="signup-input" placeholder="Type email here...">
+					<button value="submit" class="button" onclick="alert('Success!')">SIGN UP NOW</button>
+				</form>
 			</section>
 		</main>
 		<footer>
