@@ -7,7 +7,7 @@
 	align-items: center;
 }
 
-.hero-text {
+.hero-text, .join-text {
 	max-width: 70vw;
 	margin: 0 auto;
 }
