@@ -130,23 +130,20 @@ header {
 	padding: 20px 20px 60px 20px;
 	-webkit-overflow-scrolling: touch;
 	text-align: left;
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+	gap: 1rem;
 }
 
 /* Remove scrollbar for Chrome, Safari and Opera */
 .scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-two::-webkit-scrollbar {
 	display: none;
 }
-
-/* Remove scrollbar for IE, Edge and Firefox */
-.scrolling-wrapper, .scrolling-wrapper-two {
-	-ms-overflow-style: none;  /* IE and Edge */
-	scrollbar-width: none;  /* Firefox */
-}
 		
 .card, .card-two, .card-three {
 	flex: 0 0 auto;
 	width: 95%;
-	margin: 10px;
+	/* margin: 10px; */
 }
 
 .card-image {

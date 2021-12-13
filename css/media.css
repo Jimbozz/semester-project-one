@@ -283,7 +283,7 @@
 	/*CONTACT*/
 	.card-two {
 		flex: 1;
-		margin: 15px;
+		/* margin: 15px; */
 	}
 
 	.scrolling-heading {
