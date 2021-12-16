@@ -15,7 +15,7 @@ async function ExInfo() {
     const response = await fetch(corsEnabledEx);
     const result = await response.json();
    
-    title.innerHTML = `${result.title.rendered}`;
+    title.innerHTML = `COSM | ${result.title.rendered}`;
     createExhibition(result);
 
   }
