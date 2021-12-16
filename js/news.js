@@ -1,5 +1,5 @@
 const urlNews = "http://badenhorst.one/index.php/wp-json/wp/v2/posts?tags=4&_embed";
-const urlCors2 = "https://noroffcors.herokuapp.com/" + url;
+const urlCors2 = "https://noroffcors.herokuapp.com/" + urlNews;
 const newsWrapper = document.querySelector('.news-wrapper');
 
 
