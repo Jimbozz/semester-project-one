@@ -12,6 +12,7 @@
     text-align: center;
     margin: auto;
     padding: 80px 40px;
+    max-width: 70vw;
 }
 
 .new-exhibitions, .past-exhibitions {

@@ -12,7 +12,7 @@ html {
 body {
 	font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
 	font-size: calc(13px + 0.3vw);
-	line-height: 1.4;
+	line-height: 1.6;
 	margin: 0;
 	padding: 0;
 	color: var(--color-paragraph-text);
@@ -123,7 +123,7 @@ header {
 
 /* HORIZONTAL CARD LAYOUT*/
 
-.scrolling-wrapper, .scrolling-wrapper-two {
+.scrolling-wrapper, .scrolling-wrapper-two, .news-wrapper {
 	display: flex;
 	flex-wrap: nowrap;
 	overflow-x: auto;
@@ -135,8 +135,10 @@ header {
 	gap: 1rem;
 }
 
+
+
 /* Remove scrollbar for Chrome, Safari and Opera */
-.scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-two::-webkit-scrollbar {
+.scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-two::-webkit-scrollbar, .news-wrapper::-webkit-scrollbar {
 	display: none;
 }
 		
@@ -144,6 +146,10 @@ header {
 	flex: 0 0 auto;
 	width: 95%;
 	/* margin: 10px; */
+}
+
+.card-two {
+	color: var(--color-paragraph-text);
 }
 
 .card-image {

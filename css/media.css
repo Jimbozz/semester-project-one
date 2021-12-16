@@ -141,6 +141,10 @@
 	.nav-menu.active{
 		right: 0;
 	}
+
+	.ex-hero {
+		margin: 2rem 0px;
+	}
 }
 
 /*MEDIUM VIEWPORT*/

@@ -1,0 +1,43 @@
+.ex-hero {
+  height: 60vh;
+  display: flex;
+  margin: 6rem 0px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.ex-image-wrapper {
+  width: auto;
+  height: 20rem;
+}
+
+.ex-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.ex-details {
+  margin-top: 1rem;
+}
+
+.ex-content {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+.information {
+  margin-top: 6rem;
+  padding-top: 3rem;
+  text-align: center;
+  background-color: var(--color-background-blue);
+}
+
+.button-wrapper{
+  padding: 1rem;
+}
+
+.ex-content p {
+  margin-bottom: 1rem;
+}

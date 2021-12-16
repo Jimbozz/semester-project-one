@@ -1,7 +1,7 @@
 <!-- ‘Illustrations by Freepik Storyset’ -->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,15 +19,15 @@
 				a.appendChild(r);
 			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 		</script>	
-		<title>COSM | Our Exhibitions</title>
-		<meta name="description" content="See what exhibitions are currently running for you and your family.">
-		<link rel="stylesheet" href="/css/exhibitions.css">
+		<title>COSM | </title>
+		<meta name="description" content="Come and visit your local community science museum at various locations around Oslo.">
+		<link rel="stylesheet" href="/css/exhibition-specific.css">
 		<link rel="stylesheet" href="/css/global.css">
 		<link rel="stylesheet" href="/css/media.css">
 	</head>
 	<body>
 		<header>
-			<nav class="navbar" id="header-style">
+			<nav class="navbar">
 				<a href="/index.html">
 					<img src="/images/cosmo-logo-purple.png" class="logo" alt="Community of Oslo Science Museum">
 				</a>
@@ -36,7 +36,7 @@
 						<a href="/index.html" class="nav-link">HOME</a>
 					</li>
 					<li class="nav-item">
-						<a href="/exhibitions.html" class="nav-link clicked">EXHIBITIONS</a>
+						<a href="/exhibitions.html" class="nav-link">EXHIBITIONS</a>
 					</li>
 					<li class="nav-item">
 						<a href="/get-involved.html" class="nav-link">GET INVOLVED</a>
@@ -56,32 +56,38 @@
 			</nav>
 		</header>
 		<main>
-			<section class="our-exhibitions">
-				<div class="exhibitions-content">
-					<h1>Our Exhibitions</h1>
-					<p>Come join us at the Community Science Museum where we’re committed to making science accessible to all. everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-				</div>
-			</section>
-			<section class="new-exhibitions">
-				<h2 class="heading">New Exhibitions</h2>
+      <div class="button-wrapper"><a href="javascript:history.back()" class="link-button">Back</a></div>
+      <section class="exhibition-content">
+        
+      </section>
+      <section class="information" id="information">
+				<h2 class="heading">EXTRA INFORMATION</h2>
 				<div class="scrolling-heading">
 					<a href="#"><i class="fas fa-arrow-left"></i></a>
 					<p>Swipe to see more</p>
 					<a href="#"><i class="fas fa-arrow-right"></i></a>
 				</div>
 				<div class="scrolling-wrapper">
-					
-				</div>
-			</section>
-			<section class="past-exhibitions">
-				<h2 class="heading">Past Exhibitions</h2>
-				<div class="scrolling-heading-three">
-					<a href="#"><i class="fas fa-arrow-left"></i></a>
-					<p>Swipe to see more</p>
-					<a href="#"><i class="fas fa-arrow-right"></i></a>
-				</div>
-				<div class="scrolling-wrapper-two">
-					
+					<div class="card-two">
+						<img src="/images/information-admission-cosmo.svg" alt="Illustration of two tickets." class="card-image">
+						<h3>ADMISSION</h3>
+						<p>The entrance is free for all. There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum. If you would like to organise a guided tour for your group of 6 or more people, please contact us to arrange the tour.</p>
+					</div>
+					<div class="card-two">
+						<img src="/images/information-accessibility-cosmo.svg" alt="Illustration of the accessibility icon." class="card-image">
+						<h3>ACCESSIBILITY</h3>
+						<p>The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
+					</div>
+					<div class="card-two">
+						<img src="/images/information-food-and-drink-cosmo.svg" alt="Illustration of a hamburger and a drink." class="card-image">
+						<h3>FOOD AND DRINK</h3>
+						<p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+					</div>
+					<div class="card-two">
+						<img src="/images/information-shop-cosmo.svg" alt="Illustration of a shopping cart." class="card-image">
+						<h3>SHOP</h3>
+						<p>Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+					</div>
 				</div>
 			</section>
 		</main>
@@ -158,7 +164,7 @@
 			</div>
 		</footer>
 		<script src="/js/app.js"></script>
-		<script src="/js/currentEx.js"></script>
-		<script src="/js/pastEx.js"></script>
+		<script src="/js/exhibitionSpecific.js"></script>
+		
 	</body>
 </html>
