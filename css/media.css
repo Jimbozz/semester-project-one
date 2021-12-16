@@ -62,7 +62,7 @@
 		flex: 1;
 	}
 
-	.scrolling-heading-two {
+	.scrolling-heading-two, .scrolling-heading-three {
 		display: none;
 	}
 
@@ -286,8 +286,9 @@
 
 	/*CONTACT*/
 	.card-two {
-		flex: 1;
+		/* flex: 1; */
 		/* margin: 15px; */
+		width: 24.1%;
 	}
 
 	.scrolling-heading {
