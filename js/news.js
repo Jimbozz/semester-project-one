@@ -1,4 +1,4 @@
-const urlNews = "http://localhost/cosm/index.php/wp-json/wp/v2/posts?tags=4&_embed";
+const urlNews = "http://badenhorst.one/index.php/wp-json/wp/v2/posts?tags=4&_embed";
 const urlCors2 = "https://noroffcors.herokuapp.com/" + url;
 const newsWrapper = document.querySelector('.news-wrapper');
 
@@ -7,7 +7,7 @@ const newsWrapper = document.querySelector('.news-wrapper');
 async function getExhibitions() {
 
   try {
-    const response = await fetch(urlNews);
+    const response = await fetch(urlCors2);
     const results = await response.json();
     createNews(results);
     console.log(results);

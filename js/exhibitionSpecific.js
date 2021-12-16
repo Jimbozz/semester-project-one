@@ -5,14 +5,14 @@ const params = new URLSearchParams(queryString);
 const id = params.get('id');
 const finalId = parseInt(id);
 
-const url = "http://localhost/cosm/index.php/wp-json/wp/v2/posts/" + finalId + "?&_embed";
+const url = "http://badenhorst.one/index.php/wp-json/wp/v2/posts/" + finalId + "?&_embed";
 
 const corsEnabledEx = "https://noroffcors.herokuapp.com/" + url;
 
 
 async function ExInfo() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(corsEnabledEx);
     const result = await response.json();
    
     title.innerHTML = `${result.title.rendered}`;

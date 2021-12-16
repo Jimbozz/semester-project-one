@@ -1,4 +1,4 @@
-const urlPast = "http://localhost/cosm/index.php/wp-json/wp/v2/posts?tags=3&_embed";
+const urlPast = "http://badenhorst.one/index.php/wp-json/wp/v2/posts?tags=3&_embed";
 const urlCors3 = "https://noroffcors.herokuapp.com/" + urlPast;
 const cardWrapperTwo = document.querySelector('.scrolling-wrapper-two');
 
@@ -7,7 +7,7 @@ const cardWrapperTwo = document.querySelector('.scrolling-wrapper-two');
 async function getExhibitions() {
 
   try {
-    const response = await fetch(urlPast);
+    const response = await fetch(urlCors3);
     const results = await response.json();
     createPast(results);
     console.log(results);
