@@ -259,16 +259,16 @@
 
 	/*OUR EXHIBITIONS*/
 	.our-exhibitions {
-		height: 500px;
+
 		background-image: url(/images/exhibitions-science-cosmo.svg); /*‘Illustrations by Freepik Storyset’*/
 		background-repeat: no-repeat;
 		background-position: right bottom -90px;
 	}
 
-	.exhibitions-content {
+	/* .exhibitions-content {
 		padding: 200px 60px;
 		width: 800px;
-	}
+	} */
 
 	/*PAST EXHIBITIONS*/
 	.past-exhibitions {

@@ -29,7 +29,7 @@
 
 .information {
   margin-top: 6rem;
-  padding-top: 3rem;
+  padding: 3rem 0px;
   text-align: center;
   background-color: var(--color-background-blue);
 }

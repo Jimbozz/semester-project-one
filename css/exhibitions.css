@@ -6,13 +6,22 @@
 .our-exhibitions {
     background-color: var(--color-background-yellow);
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
 }
 
 .exhibitions-content {
     text-align: center;
-    margin: auto;
+    
     padding: 80px 40px;
+    
+}
+
+.exhibitions-content p {
     max-width: 70vw;
+    margin: 0 auto;
 }
 
 .new-exhibitions, .past-exhibitions {

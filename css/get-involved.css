@@ -1,6 +1,9 @@
 .get-involved {
     background-color: var(--color-purple);
-    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* #header-style {
     background-color: var(--color-purple);
@@ -12,8 +15,7 @@
 
 .get-involved > h1 {
     color: white;
-    padding: 200px 50px;
-    margin: 0px;
+
 }
 
 .fa-bars {
