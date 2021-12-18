@@ -36,7 +36,6 @@ input, textarea {
 	background-color: #f0affd;
 	border: none;
 	padding: 15px;
-	/* margin: 5px 0px 30px 0px; */
 }
 
 address {
@@ -67,10 +66,6 @@ address {
 	align-items: center;
 	margin: 0 auto;
 }
-
-/* .form-control:valid {
-	border: 1px solid green;
-  } */
 
 #nameError, #subjectError, #emailError, #messageError {
 	margin: 0px 0px 20px 0px;

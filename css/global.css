@@ -41,27 +41,6 @@ a {
 	width: 130px;
 }
 
-/* header {
-		display: flex;
-		align-items: center;
-		background-color: var(--color-background-blue);
-		padding: 20px 40px;
-		justify-content: space-between;
-} */
-
-/* #hamburger-menu {
-		display: none;
-}
-
-#hamburger-menu:checked ~ nav {
-		display: inline-block;
-}
-
-.hamburger-icon {
-		color: var(--color-purple);
-		display: block;
-} */ 
-
 ul {
 	list-style: none;
 	padding: 0px;
@@ -145,7 +124,6 @@ header {
 .card, .card-two, .card-three {
 	flex: 0 0 auto;
 	width: 95%;
-	/* margin: 10px; */
 }
 
 .card-two {

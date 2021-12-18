@@ -1,33 +1,31 @@
 #header-style {
-    background-color: var(--color-background-yellow);
+	background-color: var(--color-background-yellow);
 }
 
 
 .our-exhibitions {
-    background-color: var(--color-background-yellow);
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
+	background-color: var(--color-background-yellow);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
 }
 
 .exhibitions-content {
-    text-align: center;
-    
-    padding: 80px 40px;
-    
+	text-align: center;
+	padding: 80px 40px;
 }
 
 .exhibitions-content p {
-    max-width: 70vw;
-    margin: 0 auto;
+	max-width: 70vw;
+	margin: 0 auto;
 }
 
 .new-exhibitions, .past-exhibitions {
-    background-color: var(--color-background-blue);
-    text-align: center;
-    padding: 40px 0px;
+	background-color: var(--color-background-blue);
+	text-align: center;
+	padding: 40px 0px;
 }
 
 

@@ -1,32 +1,32 @@
 /*LARGE BUTTON*/
 
 .button {
-    font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
-    padding: 15px 40px;
-    border: none;
-    background-color: var(--color-purple);
-    color: white;
-    transition: 0.25s ease-in-out;
-    cursor: pointer;
-    margin-top: 20px;
+	font-family: var(--text-heading), sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+	padding: 15px 40px;
+	border: none;
+	background-color: var(--color-purple);
+	color: white;
+	transition: 0.25s ease-in-out;
+	cursor: pointer;
+	margin-top: 20px;
 }
 
 .button:hover {
-    box-shadow: -0.3em 0.3em var(--color-darkpurple);
+	box-shadow: -0.3em 0.3em var(--color-darkpurple);
 }
 
 /*LINK BUTTON*/
 
 .link-button {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 .link-container {
-    margin: 20px;
+	margin: 20px;
 }
 
 .link-button:hover {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 

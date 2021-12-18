@@ -3,16 +3,6 @@
 @media screen and (min-width: 768px) {
 
 
-	/*NAV*/
-	/* nav {
-			position: inherit;
-	}
-
-	.nav-style > li {
-			margin: 10px;
-	} */
-
-
 	/*EXHIBITIONS*/
 	.card {
 		width: 33%;
@@ -151,26 +141,9 @@
 
 @media screen and (min-width: 769px) {
 
-	/*NAVIGATION*/
-	/* #hamburger-menu, .hamburger-icon {
-			display: none;
-	}
-
-	nav {
-			display: inline-block;
-	}
-
-	.nav-style {
-			display: flex;
-			gap: 2rem;
-			list-style: none;
-	} */
-
 	.logo {
 		width: 180px;
 	}
-
-	
 
 	/*HERO SECTION, JOIN US*/
 	.hero, .join {
@@ -216,7 +189,6 @@
 	/*EXHIBITIONS*/
 	.scrolling-wrapper, .scrolling-wrapper-two {
 		padding: 20px 40px;
-
 	}
 
 	.scrolling-heading {
@@ -265,10 +237,6 @@
 		background-position: right bottom -90px;
 	}
 
-	/* .exhibitions-content {
-		padding: 200px 60px;
-		width: 800px;
-	} */
 
 	/*PAST EXHIBITIONS*/
 	.past-exhibitions {
@@ -286,8 +254,6 @@
 
 	/*CONTACT*/
 	.card-two {
-		/* flex: 1; */
-		/* margin: 15px; */
 		width: 24.1%;
 	}
 

@@ -1,19 +1,16 @@
 .assistance {
-    background-color: var(--color-background-blue);
-    padding: 80px 40px;
+	background-color: var(--color-background-blue);
+	padding: 80px 40px;
 }
 
 .assistance > h1, p {
-    text-align: center;
+	text-align: center;
 }
 
 .assistance-text {
-    max-width: 600px;
-    margin: auto;
+	max-width: 600px;
+	margin: auto;
 }
-
-
-
 
 /*ACCORDION STYLE*/
 
@@ -45,11 +42,11 @@ input {
 }
 
 .content > p {
-    text-align: left;
+	text-align: left;
 }
 
 .tel {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 input + label + .content {
@@ -68,6 +65,7 @@ input:checked + label + .content {
   right: 0px;
   top: 30px;
 }
+
 .faq-container input:checked + label::after {
   content: '-';
   top: 30px;
@@ -77,6 +75,7 @@ input:checked + label + .content {
   border-style:  solid none none none ;
   border-width: 1px;
 }
+
 .faq-container .last-label {
   border-style:  solid none solid none;
 }

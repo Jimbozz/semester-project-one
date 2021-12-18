@@ -1,31 +1,21 @@
 .get-involved {
-    background-color: var(--color-purple);
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	background-color: var(--color-purple);
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-/* #header-style {
-    background-color: var(--color-purple);
-} */
-
-/* li > a {
-    color: var(--color-background-blue);
-} */
 
 .get-involved > h1 {
-    color: white;
-
+	color: white;
 }
 
 .fa-bars {
-    color: var(--color-background-blue);
+	color: var(--color-background-blue);
 }
 
 .involved {
-    background-color: var(--color-background-yellow);
-    padding: 40px 0px;
-    text-align: center;
+	background-color: var(--color-background-yellow);
+	padding: 40px 0px;
+	text-align: center;
 }
-
-  
