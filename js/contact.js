@@ -4,19 +4,19 @@ const subjectErr = document.querySelector('#subjectError');
 const emailErr = document.querySelector('#emailError');
 const messageErr = document.querySelector('#messageError');
 
-function validation(event) {
+function formVal(event) {
 
   event.preventDefault();
 
-  const name = document.querySelector('#fullName');
-  const email = document.querySelector('#email');
-  const subject = document.querySelector('#subject');
-  const message = document.querySelector('#message');
+  const name = document.querySelector("#your-name");
+  const subject = document.querySelector("#your-subject");
+  const email = document.querySelector("#your-email");
+  const message = document.querySelector("#your-message");
 
-  if(length(name.value, 3) === true) {
+  if(checkLength(name.value, 3) === true) {
     nameErr.style.display = "none";
-    name.style.border = "";
-    name.style.background = "";
+    email.style.border = "";
+    email.style.background = "";
   }
   else {
     nameErr.style.display = "block";
@@ -33,7 +33,7 @@ function validation(event) {
     email.style.border = "1px solid red";
     email.style.background = "#ff000030";
   }
-  if(length(subject.value, 4) === true) {
+  if(checkLength(subject.value, 4) === true) {
     subjectErr.style.display = "none";
     subject.style.border = "";
     subject.style.background = "";
@@ -43,7 +43,7 @@ function validation(event) {
     subject.style.border = "1px solid red";
     subject.style.background = "#ff000030";
   }
-  if(length(message.value, 20) === true) {
+  if(checkLength(message.value, 20) === true) {
     messageErr.style.display = "none";
     message.style.border = "";
     message.style.background = "";
@@ -53,8 +53,8 @@ function validation(event) {
     message.style.border = "1px solid red";
     message.style.background = "#ff000030";
   }
-  if(length(name.value, 0) && length(subject.value, 0) && emailVal(email.value) && length(message.value, 20) === true) {
-
+  if(checkLength(name.value, 0) && checkLength(subject.value, 0) && emailVal(email.value) && checkLength(message.value, 20) === true) {
+    
     form.onsubmit = function formSuccess() {
       form.innerHTML = `
                       <div class="success"> Your form was submitted successfully.
@@ -66,14 +66,16 @@ function validation(event) {
     return false;
   }
 }
-form.addEventListener("submit", validation);
+
+form.addEventListener("submit", formVal);
+
 
 
 
 //Check length
 
 
-function length(value, length) {
+function checkLength(value, length) {
   if(value.trim().length >= length) {
     return true
   }
@@ -90,3 +92,26 @@ function emailVal(email) {
   const matches = regEx.test(email);
   return matches;
 }
+
+
+async function onSubmit(event) {
+  event.preventDefault(); 
+  
+  try {
+    const response = await fetch(event.target.action, {
+      method: form.method,
+      body: new FormData(form)
+         
+    });
+    const data = await response.json();
+    console.log(data);
+
+    
+
+  } catch(error) {
+    
+    console.log(error);
+  }
+}
+
+form.onsubmit = onSubmit;
