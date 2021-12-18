@@ -8,6 +8,8 @@
 
 .get-involved > h1 {
 	color: white;
+	text-align: center;
+	max-width: 80vw;
 }
 
 .fa-bars {
